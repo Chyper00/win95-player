@@ -6,7 +6,7 @@ Create a css just for fun and trainning css, i will make a streaming lo-fi/retro
 feel free to commit or make request.
 
 
-#ScreenShot
+# screenShot
 
 <img src='https://i.imgur.com/1otFXIX.png'/>
 
@@ -15,6 +15,6 @@ feel free to commit or make request.
 
 * `font ` https://fontstruct.com/fontstructions/show/1384746/ms-sans-serif 
 
-#Licence
+# licence
 
 MIT
