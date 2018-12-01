@@ -14,3 +14,7 @@ feel free to commit or make request.
 # links 
 
 * `font ` https://fontstruct.com/fontstructions/show/1384746/ms-sans-serif 
+
+#Licence
+
+MIT
