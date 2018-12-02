@@ -5,6 +5,8 @@
 Create a css just for fun and trainning css, i will make a streaming lo-fi/retro-wave etc with reactjs - soon.
 feel free to commit or make request.
 
+<a href ='https://github.com/Chyper00/win95-player-reactjs'> React win 95 repo</a>
+
 
 # screenShot
 
