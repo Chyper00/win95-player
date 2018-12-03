@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://localhost:3000// -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" href="./Win95 Player_files/materialize.min.css">
+    <link rel="shortcut icon" type="image/png" href="http://localhost:3000/img/fav.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Win95 Player</title>
+  <style type="text/css">body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+</style><style type="text/css">/* Made with love by Chyper*/
+@font-face{
+    font-family:'ms95'; 
+    src: url(/static/media/ms-sans-serif.9686cb7d.ttf);
+  }
+ 
+ 
+ *{font-family:"ms95"}
+
+
+body {
+    font-family:"ms95";
+    font-size: 13px;
+    background-color: #008080;
+    text-decoration: none;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    overflow: hidden;
+   
+}
+.windows {    
+    border: 1px solid;
+    border-left-color: #ffffff;
+    border-top-color: #ffffff;   
+    background-color: #c3c7cb;
+    border-right-color: #868a8e;
+    
+}
+.windows-box {    
+    border: 1px solid;    
+    border-top-color: #c3c7cb;   
+    border-left-color: #c3c7cb;  
+    background-color: #c0c0c0;
+    border-bottom-color: #444;
+    border-right-color: #000000;
+    width: 410px;
+    height: 280px;
+   
+}
+
+.windows-header {
+    margin: 1px 1px 1px 1px; 
+    padding: 1px 1px 1px 1px; 
+    background-color: #0000aa; 
+    height: 25px;      
+}
+
+.windows-title {  
+    padding-top: 1px;   
+    color: white;   
+    position: relative; 
+}
+
+.windows-button {
+    border: 2px solid;   
+    border-bottom-color: #444;
+    border-right-color: #444;
+    border-left-color: #a6a6a6;
+    border-top-color: #a6a6a6;
+    background-color:  rgb(192,192,192);    
+}
+
+.cd-player {
+    background-image: url(/static/media/cd-player.c5a5dc20.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 2px    
+}
+
+.windows-toolbar {
+    list-style:none;
+    display: inline;
+    padding: 2px;
+}
+
+.toolbar-item {
+    display: inline-block;
+    list-style:none;
+    padding: 2px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.toolbar-item:first-letter { 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.windows-link {
+     color: inherit; 
+} 
+
+.clock-display {  
+    margin-top: 5px;  
+    border: 1px solid;   
+    border-bottom-color:  #444 ;
+    outline: 1px white;
+    border-right-color: #444;
+    border-left-color: #a6a6a6;
+    border-top-color: #a6a6a6;    
+    background-color:  black; 
+    width: 240px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-clock-display {
+    text-align: center;
+    font-size: 30px;    
+    color: #aaaa55;
+}
+
+.player-control {
+    padding-left: 45px;  
+    padding-top: 5px;
+}
+
+.play-button {    
+    border: 1px solid;    
+    border-top-color: #ffffff;   
+    border-left-color: #dbdada;;  
+    background-color: #c0c0c0;
+    border-bottom-color: #000000;
+    border-right-color: #000000;
+    width: 20px;
+    height: 19px;   
+    font-family:"ms95"; 
+    content: "&#9658;";
+}
+
+.player-button {
+    margin: 1px;
+    margin-bottom: 5px;
+    border: 1px solid;    
+    border-top-color: #ffffff;   
+    border-left-color: #dbdada;;  
+    background-color: #c0c0c0;
+    border-bottom-color: #000000;
+    border-right-color: #000000;
+    width: 20%;
+    height: 8%;
+    font-family:"ms95";
+}
+
+
+
+
+.player-input {
+    padding-left: 5px;
+    width: 100%;
+    height: 7%; 
+    font-family:"ms95";
+    font-size: 13px;
+    border: 1px solid;    
+    border-top-color: #000000;   
+    border-left-color: #000000;;  
+    background-color: #ffffff;
+    border-bottom-color: #c3c7cb;
+    border-right-color: #c3c7cb;
+}
+.player-input-of {
+    padding-left: 5px;
+    width: 100%;
+    height: 7%; 
+    font-family:"ms95";
+    font-size: 13px;
+    border: 1px solid;    
+    border-top-color: #000000;   
+    border-left-color: #000000;  
+    background-color:  #c3c7cb;
+    border-bottom-color: #c3c7cb;
+    border-right-color: #c3c7cb;
+}
+
+
+.player-input-status {
+    padding-left: 5px;
+    width: 50%;
+    height: 7%; 
+    font-family:"ms95";
+    font-size: 13px;
+    border: 1px solid;    
+    border-top-color: #000000;   
+    border-left-color: #000000;  
+    background-color:  #c3c7cb;
+    border-bottom-color: #c3c7cb;
+    border-right-color: #c3c7cb;
+}
+</style></head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"><div class="custom-player"><div class="container"><br><div class="windows-box"><div class="windows"><div class="windows-header"><div class="windows-title"><span class="cd-player"></span>CD player</div></div><div class="windows-container"><ul class="windows-toolbar"><li class="toolbar-item"> <a href="http://localhost:3000//!#" class="windows-link">Disc </a> </li><li class="toolbar-item"> <a href="http://localhost:3000//!#" class="windows-link">View </a></li><li class="toolbar-item"> <a href="http://localhost:3000//!#" class="windows-link">Option </a> </li><li class="toolbar-item"> <a href="http://localhost:3000//!#" class="windows-link">Help </a></li></ul></div></div><br><div class="row"><div class="col s6"><div class="clock-display"><span class="text-clock-display"> <div class="sb-soundplayer-timer custom-player-timer">00:00 / 02:42</div></span></div></div><div class="col s6"><div class="player-control"><button type="button" class="sb-soundplayer-btn sb-soundplayer-play-btn play-button"><svg class="sb-soundplayer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor"><path d="M0 0 L32 16 L0 32 z"></path></svg></button><button class="player-button"> ❚❚</button><button class="player-button"> ◼</button><button class="player-button"> ⏮</button><button class="player-button"> ⏴</button><button class="player-button"> ⏵</button><button class="player-button"> ⏭</button></div></div></div><div class="row"><div class="windows-row"><div class="col s1"><span>Artist:</span></div><div class="col s11"><div class="player-input"> Data or no disc  [D:]</div></div></div><div class="windows-row"><div class="col s1"><span>Title:</span></div><div class="col s11"><div class="player-input-of"> harris cole x arbour - Rosewood</div></div></div><div class="windows-row"><div class="col s1"><span>Track:</span></div><div class="col s11"><div class="player-input">harris cole x arbour - Rosewood </div></div></div></div><div class="row "><div class="windows-row"><div class="col s6"><div class="player-input-of">Total Play: 00:00 m:s</div></div><div class="col s6"><div class="player-input-of">Track: 00:00 m:s</div></div></div></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./Win95 Player_files/bundle.js.download"></script><script src="./Win95 Player_files/0.chunk.js.download"></script><script src="./Win95 Player_files/main.chunk.js.download"></script><script src="./Win95 Player_files/main.7c556dc619c83be82788.hot-update.js.download"></script>
+
+</body></html>

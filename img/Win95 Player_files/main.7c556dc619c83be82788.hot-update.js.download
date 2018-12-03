@@ -1,0 +1,471 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-soundplayer/components */ "./node_modules/react-soundplayer/components.js");
+/* harmony import */ var react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_soundplayer_addons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-soundplayer/addons */ "./node_modules/react-soundplayer/addons.js");
+/* harmony import */ var react_soundplayer_addons__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_soundplayer_addons__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Win95_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Win95.css */ "./src/Win95.css");
+/* harmony import */ var _Win95_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Win95_css__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Luiz Paulo\\Desktop\\win95playeer\\playerwin95\\src\\App.js";
+
+
+
+
+var clientId = 'q241TWlfmzYAESNz2Y7GNCbSGeQ6mKL2';
+var resolveUrl = 'https://soundcloud.com/chillhopdotcom/harris-cole-x-arbour-rosewood';
+var Player = Object(react_soundplayer_addons__WEBPACK_IMPORTED_MODULE_7__["withSoundCloudAudio"])(function (props) {
+  var track = props.track,
+      currentTime = props.currentTime;
+  return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "custom-player",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-box",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    className: "cd-player",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), "CD player")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
+    className: "windows-toolbar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+    className: "toolbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+    href: "!#",
+    className: "windows-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "Disc "), " "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+    className: "toolbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+    href: "!#",
+    className: "windows-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "View ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+    className: "toolbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+    href: "!#",
+    className: "windows-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Option "), " "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+    className: "toolbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+    href: "!#",
+    className: "windows-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Help "))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "clock-display",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    className: "text-clock-display",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6__["Timer"], Object.assign({
+    className: "custom-player-timer",
+    duration: track ? track.duration / 1000 : 0,
+    currentTime: currentTime
+  }, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-control",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6__["PlayButton"], Object.assign({
+    className: "play-button",
+    onPlayClick: function onPlayClick() {
+      console.log('play button clicked!');
+    }
+  }, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, " \u275A\u275A"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, " \u25FC"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, " \u23EE"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, " \u23F4"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, " \u23F5"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, " \u23ED")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, "Artist:")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s11",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, " Data or no disc  [D:]"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, "Title:")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s11",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input-of",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, " ", track ? track.title : 'Please insert a audio compact disc.'))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, "Track:")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s11",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, track ? track.title : 'Loading...', " ")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "row ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input-of",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "Total Play: 00:00 m:s")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input-of",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, "Track: 00:00 m:s")))))));
+});
+
+var App =
+/*#__PURE__*/
+function (_Component) {
+  Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(App, _Component);
+
+  function App() {
+    Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, App);
+
+    return Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(App).apply(this, arguments));
+  }
+
+  Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(App, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Player, {
+        clientId: clientId,
+        resolveUrl: resolveUrl,
+        onReady: function onReady() {
+          return console.log('track is loaded!');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        },
+        __self: this
+      });
+    }
+  }]);
+
+  return App;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.7c556dc619c83be82788.hot-update.js.map

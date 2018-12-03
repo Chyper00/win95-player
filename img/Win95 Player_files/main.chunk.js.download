@@ -1,0 +1,789 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/Win95.css":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/Win95.css ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var escape = __webpack_require__(/*! ../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/* Made with love by Chyper*/\r\n@font-face{\r\n    font-family:'ms95'; \r\n    src: url(" + escape(__webpack_require__(/*! ./css/font/ms-sans-serif.ttf */ "./src/css/font/ms-sans-serif.ttf")) + ");\r\n  }\r\n \r\n \r\n *{font-family:\"ms95\"}\r\n\r\n\r\nbody {\r\n    font-family:\"ms95\";\r\n    font-size: 13px;\r\n    background-color: #008080;\r\n    text-decoration: none;\r\n    -webkit-transform: scale(2);\r\n            transform: scale(2);\r\n    -webkit-transform-origin: 0 0;\r\n            transform-origin: 0 0;\r\n    overflow: hidden;\r\n   \r\n}\r\n.windows {    \r\n    border: 1px solid;\r\n    border-left-color: #ffffff;\r\n    border-top-color: #ffffff;   \r\n    background-color: #c3c7cb;\r\n    border-right-color: #868a8e;\r\n    \r\n}\r\n.windows-box {    \r\n    border: 1px solid;    \r\n    border-top-color: #c3c7cb;   \r\n    border-left-color: #c3c7cb;  \r\n    background-color: #c0c0c0;\r\n    border-bottom-color: #444;\r\n    border-right-color: #000000;\r\n    width: 410px;\r\n    height: 280px;\r\n   \r\n}\r\n\r\n.windows-header {\r\n    margin: 1px 1px 1px 1px; \r\n    padding: 1px 1px 1px 1px; \r\n    background-color: #0000aa; \r\n    height: 25px;      \r\n}\r\n\r\n.windows-title {  \r\n    padding-top: 1px;   \r\n    color: white;   \r\n    position: relative; \r\n}\r\n\r\n.windows-button {\r\n    border: 2px solid;   \r\n    border-bottom-color: #444;\r\n    border-right-color: #444;\r\n    border-left-color: #a6a6a6;\r\n    border-top-color: #a6a6a6;\r\n    background-color:  rgb(192,192,192);    \r\n}\r\n\r\n.cd-player {\r\n    background-image: url(" + escape(__webpack_require__(/*! ./img/cd-player.png */ "./src/img/cd-player.png")) + ");\r\n    background-repeat: no-repeat;\r\n    padding-left: 20px;\r\n    padding-bottom: 2px    \r\n}\r\n\r\n.windows-toolbar {\r\n    list-style:none;\r\n    display: inline;\r\n    padding: 2px;\r\n}\r\n\r\n.toolbar-item {\r\n    display: inline-block;\r\n    list-style:none;\r\n    padding: 2px;\r\n    padding-left: 5px;\r\n    text-decoration: none;\r\n}\r\n\r\n.toolbar-item:first-letter { \r\n    text-decoration: underline;\r\n    cursor: pointer;\r\n}\r\n\r\n.windows-link {\r\n     color: inherit; \r\n} \r\n\r\n.clock-display {  \r\n    margin-top: 5px;  \r\n    border: 1px solid;   \r\n    border-bottom-color:  #444 ;\r\n    outline: 1px white;\r\n    border-right-color: #444;\r\n    border-left-color: #a6a6a6;\r\n    border-top-color: #a6a6a6;    \r\n    background-color:  black; \r\n    width: 240px;\r\n    height: 55px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n}\r\n\r\n.text-clock-display {\r\n    text-align: center;\r\n    font-size: 30px;    \r\n    color: #aaaa55;\r\n}\r\n\r\n.player-control {\r\n    padding-left: 45px;  \r\n    padding-top: 5px;\r\n}\r\n\r\n.play-button {    \r\n    border: 1px solid;    \r\n    border-top-color: #ffffff;   \r\n    border-left-color: #dbdada;;  \r\n    background-color: #c0c0c0;\r\n    border-bottom-color: #000000;\r\n    border-right-color: #000000;\r\n    width: 20px;\r\n    height: 19px;   \r\n    font-family:\"ms95\"; \r\n    content: \"&#9658;\";\r\n}\r\n\r\n.player-button {\r\n    margin: 1px;\r\n    margin-bottom: 5px;\r\n    border: 1px solid;    \r\n    border-top-color: #ffffff;   \r\n    border-left-color: #dbdada;;  \r\n    background-color: #c0c0c0;\r\n    border-bottom-color: #000000;\r\n    border-right-color: #000000;\r\n    width: 20%;\r\n    height: 8%;\r\n    font-family:\"ms95\";\r\n}\r\n\r\n\r\n\r\n\r\n.player-input {\r\n    padding-left: 5px;\r\n    width: 100%;\r\n    height: 7%; \r\n    font-family:\"ms95\";\r\n    font-size: 13px;\r\n    border: 1px solid;    \r\n    border-top-color: #000000;   \r\n    border-left-color: #000000;;  \r\n    background-color: #ffffff;\r\n    border-bottom-color: #c3c7cb;\r\n    border-right-color: #c3c7cb;\r\n}\r\n.player-input-of {\r\n    padding-left: 5px;\r\n    width: 100%;\r\n    height: 7%; \r\n    font-family:\"ms95\";\r\n    font-size: 13px;\r\n    border: 1px solid;    \r\n    border-top-color: #000000;   \r\n    border-left-color: #000000;  \r\n    background-color:  #c3c7cb;\r\n    border-bottom-color: #c3c7cb;\r\n    border-right-color: #c3c7cb;\r\n}\r\n\r\n\r\n.player-input-status {\r\n    padding-left: 5px;\r\n    width: 50%;\r\n    height: 7%; \r\n    font-family:\"ms95\";\r\n    font-size: 13px;\r\n    border: 1px solid;    \r\n    border-top-color: #000000;   \r\n    border-left-color: #000000;  \r\n    background-color:  #c3c7cb;\r\n    border-bottom-color: #c3c7cb;\r\n    border-right-color: #c3c7cb;\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-soundplayer/components */ "./node_modules/react-soundplayer/components.js");
+/* harmony import */ var react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_soundplayer_addons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-soundplayer/addons */ "./node_modules/react-soundplayer/addons.js");
+/* harmony import */ var react_soundplayer_addons__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_soundplayer_addons__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Win95_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Win95.css */ "./src/Win95.css");
+/* harmony import */ var _Win95_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Win95_css__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Luiz Paulo\\Desktop\\win95playeer\\playerwin95\\src\\App.js";
+
+
+
+
+var clientId = 'q241TWlfmzYAESNz2Y7GNCbSGeQ6mKL2';
+var resolveUrl = 'https://soundcloud.com/chillhopdotcom/harris-cole-x-arbour-rosewood';
+var Player = Object(react_soundplayer_addons__WEBPACK_IMPORTED_MODULE_7__["withSoundCloudAudio"])(function (props) {
+  var track = props.track,
+      currentTime = props.currentTime;
+  return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "custom-player",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-box",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    className: "cd-player",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), "CD player")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
+    className: "windows-toolbar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+    className: "toolbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+    href: "!#",
+    className: "windows-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "Disc "), " "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+    className: "toolbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+    href: "!#",
+    className: "windows-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "View ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+    className: "toolbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+    href: "!#",
+    className: "windows-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Option "), " "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+    className: "toolbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+    href: "!#",
+    className: "windows-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Help "))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "clock-display",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    className: "text-clock-display",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, " ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6__["Timer"], Object.assign({
+    className: "custom-player-timer",
+    duration: track ? track.duration / 1000 : 0,
+    currentTime: currentTime
+  }, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-control",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_soundplayer_components__WEBPACK_IMPORTED_MODULE_6__["PlayButton"], Object.assign({
+    className: "play-button",
+    onPlayClick: function onPlayClick() {
+      console.log('play button clicked!');
+    }
+  }, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, " \u275A\u275A"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, " \u25FC"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, " \u23EE"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, " \u23F4"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, " \u23F5"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+    className: "player-button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, " \u23ED")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, "Artist:")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s11",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, " Data or no disc  [D:]"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, "Title:")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s11",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input-of",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, " ", track ? track.title : 'Please insert a audio compact disc.'))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, "Track:")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s11",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, track ? track.title : 'Loading...', " ")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "row ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "windows-row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input-of",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "Total Play: 00:00 m:s")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "col s6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+    className: "player-input-of",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, "Track: 00:00 m:s")))))));
+});
+
+var App =
+/*#__PURE__*/
+function (_Component) {
+  Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(App, _Component);
+
+  function App() {
+    Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, App);
+
+    return Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(App).apply(this, arguments));
+  }
+
+  Object(C_Users_Luiz_Paulo_Desktop_win95playeer_playerwin95_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(App, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Player, {
+        clientId: clientId,
+        resolveUrl: resolveUrl,
+        onReady: function onReady() {
+          return console.log('track is loaded!');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        },
+        __self: this
+      });
+    }
+  }]);
+
+  return App;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/Win95.css":
+/*!***********************!*\
+  !*** ./src/Win95.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./Win95.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/Win95.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./Win95.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/Win95.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./Win95.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/Win95.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/css/font/ms-sans-serif.ttf":
+/*!****************************************!*\
+  !*** ./src/css/font/ms-sans-serif.ttf ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/ms-sans-serif.9686cb7d.ttf";
+
+/***/ }),
+
+/***/ "./src/img/cd-player.png":
+/*!*******************************!*\
+  !*** ./src/img/cd-player.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/cd-player.c5a5dc20.png";
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "C:\\Users\\Luiz Paulo\\Desktop\\win95playeer\\playerwin95\\src\\index.js";
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_4__["unregister"]();
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read http://bit.ly/CRA-PWA
+var isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) { var publicUrl; }
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(function (registration) {
+    registration.onupdatefound = function () {
+      var installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = function () {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See http://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(function (error) {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(function (response) {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    var contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(function (registration) {
+        registration.unregister().then(function () {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(function () {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(function (registration) {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Luiz Paulo\Desktop\win95playeer\playerwin95\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Luiz Paulo\Desktop\win95playeer\playerwin95\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime~main",0]]]);
+//# sourceMappingURL=main.chunk.js.map

@@ -13,7 +13,7 @@ body {
     font-size: 13px;
     background-color: #008080;
     text-decoration: none;
-    transform: scale(2);
+    transform: scale(1.9);
     transform-origin: 0 0;
     overflow: hidden;
    
@@ -40,8 +40,8 @@ body {
 
 .windows-header {
     margin: 1px 1px 1px 1px; 
-    padding: 1px 1px 1px 1px; 
-    background-color: #0000aa; 
+    padding: 1px 1px 1px 1px;     
+    background-image: linear-gradient(to right, #0000aa, #0082aa);; 
     height: 25px;      
 }
 
@@ -58,6 +58,15 @@ body {
     border-left-color: #a6a6a6;
     border-top-color: #a6a6a6;
     background-color:  rgb(192,192,192);    
+}
+
+button:active{  
+    background-color:  rgb(192,192,192);  
+    border: 0.9px solid;   
+    border-bottom-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-left-color: #000000;
+    border-top-color: #000000;
 }
 
 .cd-player {
@@ -125,7 +134,7 @@ body {
     border-bottom-color: #000000;
     border-right-color: #000000;
     width: 45%;
-    height: 8%;   
+    height: 11%;   
     font-family:"ms95"; 
 }
 
@@ -138,8 +147,8 @@ body {
     background-color: #c0c0c0;
     border-bottom-color: #000000;
     border-right-color: #000000;
-    width: 20%;
-    height: 8%;
+    width: 21%;
+    height: 11%;
     font-family:"ms95";
 }
 
