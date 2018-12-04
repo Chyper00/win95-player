@@ -1,76 +1,92 @@
 <html>
-    <head>
-        <title > Win 95 - Player</title>
-        <link rel="stylesheet" href="win95.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link rel="shortcut icon" type="image/png" href="img/fav.png"/>
 
-    </head>
-    <body>
-        <div class="container">
-            <br/>
-            <div class="windows-box">
-                <div class="windows">
-                    <div class="windows-header">
-                        <div class="windows-title">                                
-                           <span class="cd-player"></span>CD player                                
-                        </div> 
-                    </div>
-                    <div class="windows-container">
-                        <ul class="windows-toolbar">  
-                            <li class="toolbar-item"> <a href="#" class="windows-link">Disc </a> </li> 
-                            <li class="toolbar-item"> <a href="#" class="windows-link">View </a></li>                            
-                            <li class="toolbar-item"> <a href="#" class="windows-link">Option </a> </li>
-                            <li class="toolbar-item"> <a href="#" class="windows-link">Help </a></li>
-                        </ul>
+<head>
+    <title> Win 95 - Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="win95.css" />
+    <link rel="shortcut icon" type="image/png" href="img/fav.png" />
+
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <div class="windows-box">
+            <div class="windows">
+                <div class="windows-header">
+                    <div class="windows-title">
+                        <span class="cd-player icon">
+                        </span>
+                        <span class="cd-player text">
+                            CD player
+                        </span>
                     </div>
                 </div>
-                <br/>
-                <div class="row">
+                <div class="windows-container">
+                    <ul class="windows-toolbar">
+                        <li class="toolbar-item"> <a href="#" class="windows-link">Disc </a> </li>
+                        <li class="toolbar-item"> <a href="#" class="windows-link">View </a></li>
+                        <li class="toolbar-item"> <a href="#" class="windows-link">Option </a> </li>
+                        <li class="toolbar-item"> <a href="#" class="windows-link">Help </a></li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col s6">
+                    <div class="clock-display">
+                        <span class="text-clock-display"> [00] : 00 : 00</span>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="player-control">
+                        <button class="play-button"> &#9658;</button>
+                        <button class="player-button"> &#10074;&#10074;</button>
+                        <button class="player-button"> &#9724;</button>
+                        <button class="player-button"> &#x23EE;</button>
+                        <button class="player-button"> &#x23F4;</button>
+                        <button class="player-button"> &#x23F5;</button>
+                        <button class="player-button"> &#x23ED;</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="windows-row">
+                    <div class="col s1">Artist:</div>
+                    <div class="col s11">
+                        <div class="player-input"> Data or no disc [D:]</div>
+                    </div>
+                </div>
+                <div class="windows-row">
+                    <div class="col s1">Title:</div>
+                    <div class="col s11">
+                        <div class="player-input-of">Please insert a audio compact disc.</div>
+                    </div>
+                </div>
+                <div class="windows-row">
+                    <div class="col s1">Track:</div>
+                    <div class="col s11">
+                        <div class="player-input"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="windows-row">
                     <div class="col s6">
-                        <div class="clock-display">
-                                <span class="text-clock-display"> [00] : 00 : 00</span>                        
-                        </div>
+                        <div class="player-input-of">Total Play: 00:00 m:s</div>
                     </div>
                     <div class="col s6">
-                        <div class="player-control">
-                                <button class="play-button">   &#9658;</button>
-                                <button class="player-button"> &#10074;&#10074;</button>
-                                <button class="player-button"> &#9724;</button>
-                                <button class="player-button"> &#x23EE;</button>
-                                <button class="player-button"> &#x23F4;</button>
-                                <button class="player-button"> &#x23F5;</button>
-                                <button class="player-button"> &#x23ED;</button> 
-                        </div>
+                        <div class="player-input-of">Track: 00:00 m:s</div>
                     </div>
                 </div>
-
-
-                <div class="row">
-                   <div class="windows-row">
-                        <div class="col s1">Artist:</div>
-                        <div class="col s11"><div class="player-input" > Data or no disc  [D:]</div></div>
-                    </div>
-                    <div class="windows-row">
-                        <div class="col s1">Title:</div>
-                        <div class="col s11"><div class="player-input-of" >Please insert a audio compact disc.</div></div>
-                    </div> 
-                    <div class="windows-row">
-                        <div class="col s1">Track:</div>
-                        <div class="col s11"><div class="player-input"></div></div>
-                    </div> 
-                </div>
-                <div class="row ">
-                    <div class="windows-row">
-                        <div class="col s6"><div class="player-input-of">Total Play: 00:00 m:s</div></div>
-                        <div class="col s6"><div class="player-input-of">Track: 00:00 m:s</div></div>
-                    </div>
-                </div>
+            </div>
         </div>
-      </div>
-    </body>
-    
-       
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-       
+    </div>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </html>
