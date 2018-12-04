@@ -14,7 +14,7 @@ if you want to share some experience, let me know.
 
 # screenShot
 
-<img src='https://i.imgur.com/1otFXIX.png'/>
+<img src='https://i.imgur.com/kSV7VlO.png'/>
 
 
 # links 
