@@ -104,7 +104,8 @@ button:active {
 .cd-player.icon {
     /* Edits by MrShoopa on 12/3/2018 */
     background-image: url('img/cd-player.png');
-    background-repeat: no-repeat;
+    background-size: 17px 14px; /*Fix the icon size, was cropping the botom part */
+    background-repeat: no-repeat;    
     padding-left: 20px;
 }
 
