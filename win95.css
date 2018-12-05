@@ -1,115 +1,147 @@
 /* Made with love by Chyper*/
-@font-face{
-    font-family:'ms95'; 
+@font-face {
+    font-family: 'ms95';
     src: url("css/font/ms-sans-serif.ttf");
-  }
- 
- 
- *{font-family:"ms95"}
+}
+
+
+* {
+    font-family: "ms95"
+}
 
 
 body {
-    font-family:"ms95";
+    font-family: "ms95";
     font-size: 13px;
     background-color: #008080;
     text-decoration: none;
-    transform: scale(1.9);
-    transform-origin: 0 0;
+    transform: scale(2);
     overflow: hidden;
-   
+
 }
-.windows {    
+
+.row {
+    /* Edited by MrShoopa on 12/3/2018! */
+    margin-bottom: 10px;
+}
+
+.container {
+    /* Edited by MrShoopa on 12/3/2018! */
+    width: 410px;
+}
+
+.windows {
     border: 1px solid;
     border-left-color: #ffffff;
-    border-top-color: #ffffff;   
+    border-top-color: #ffffff;
     background-color: #c3c7cb;
     border-right-color: #868a8e;
-    
+
 }
-.windows-box {    
-    border: 1px solid;    
-    border-top-color: #c3c7cb;   
-    border-left-color: #c3c7cb;  
+
+.windows-box {
+    border: 1px solid;
+    border-top-color: #c3c7cb;
+    border-left-color: #c3c7cb;
     background-color: #c0c0c0;
     border-bottom-color: #444;
     border-right-color: #000000;
     width: 410px;
     height: 280px;
-   
+
+    /* Edits by MrShoopa on 12/3/2018 */
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .windows-header {
-    margin: 1px 1px 1px 1px; 
-    padding: 1px 1px 1px 1px;     
-    background-image: linear-gradient(to right, #0000aa, #0082aa);; 
-    height: 25px;      
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    background-image: linear-gradient(to right, #0000aa, #0082aa);
+    height: 25px;
 }
 
-.windows-title {  
-    padding-top: 1px;   
-    color: white;   
-    position: relative; 
+.windows-title {
+    padding-top: 1px;
+    color: white;
+    position: relative;
 }
 
 .windows-button {
-    border: 2px solid;   
+    border: 2px solid;
     border-bottom-color: #444;
     border-right-color: #444;
     border-left-color: #a6a6a6;
     border-top-color: #a6a6a6;
-    background-color:  rgb(192,192,192);    
+    background-color: rgb(192, 192, 192);
 }
 
-button:active{  
-    background-color:  rgb(192,192,192);  
-    border: 0.9px solid;   
+.windows-row {
+    /* Edited by MrShoopa on 12/3/2018! */
+    padding-bottom: 30px;
+}
+
+button:active {
+    background-color: rgb(192, 192, 192);
+    border: 0.9px solid;
     border-bottom-color: rgb(0, 0, 0);
     border-right-color: rgb(0, 0, 0);
     border-left-color: #000000;
     border-top-color: #000000;
 }
 
-.cd-player {
+.cd-player.text {
+    /* Edits by MrShoopa on 12/3/2018 */
+    margin-top: 1px;
+    position: absolute;
+}
+
+.cd-player.icon {
+    /* Edits by MrShoopa on 12/3/2018 */
     background-image: url('img/cd-player.png');
     background-repeat: no-repeat;
     padding-left: 20px;
-    padding-bottom: 2px    
 }
 
 .windows-toolbar {
-    list-style:none;
+    list-style: none;
     display: inline;
     padding: 2px;
 }
 
 .toolbar-item {
     display: inline-block;
-    list-style:none;
+    list-style: none;
     padding: 2px;
     padding-left: 5px;
     text-decoration: none;
 }
 
-.toolbar-item:first-letter { 
+.toolbar-item:first-letter {
     text-decoration: underline;
     cursor: pointer;
 }
 
 .windows-link {
-     color: inherit; 
-} 
+    color: inherit;
+}
 
-.clock-display {  
-    margin-top: 5px;  
-    border: 1px solid;   
-    border-bottom-color:  #444 ;
+.clock-display {
+    margin-top: 0px;
+    border: 1px solid;
+    border-bottom-color: #444;
     outline: 1px white;
     border-right-color: #444;
     border-left-color: #a6a6a6;
-    border-top-color: #a6a6a6;    
-    background-color:  black; 
+    border-top-color: #a6a6a6;
+    background-color: black;
     width: 240px;
-    height: 55px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,67 +149,74 @@ button:active{
 
 .text-clock-display {
     text-align: center;
-    font-size: 30px;    
+    font-size: 30px;
     color: #aaaa55;
 }
 
 .player-control {
-    padding-left: 45px;  
-    padding-top: 5px;
+    padding-left: 45px;
+    padding-top: 0px;
 }
 
-.play-button {    
-    border: 1px solid;    
-    border-top-color: #ffffff;   
-    border-left-color: #dbdada;;  
+.play-button {
+    margin-left: 3px;
+    margin-bottom: 8px;
+    border: 1px solid;
+    border-top-color: #ffffff;
+    border-left-color: #dbdada;
     background-color: #c0c0c0;
     border-bottom-color: #000000;
     border-right-color: #000000;
-    width: 45%;
-    height: 11%;   
-    font-family:"ms95"; 
+    width: 56.5%;
+    height: 9%;
+    font-family: "ms95";
 }
 
 .player-button {
-    margin: 1px;
-    margin-bottom: 5px;
-    border: 1px solid;    
-    border-top-color: #ffffff;   
-    border-left-color: #dbdada;;  
+    margin-left: 3px;
+    margin-bottom: 8px;
+    padding-left: 4px;
+    border: 1px solid;
+    border-top-color: #ffffff;
+    border-left-color: #dbdada;
     background-color: #c0c0c0;
     border-bottom-color: #000000;
     border-right-color: #000000;
-    width: 21%;
-    height: 11%;
-    font-family:"ms95";
+    width: 16%;
+    height: 9%;
+    font-family: "ms95";
 }
-
-
-
 
 .player-input {
     padding-left: 5px;
     width: 100%;
-    height: 7%; 
-    font-family:"ms95";
-    font-size: 13px;
-    border: 1px solid;    
-    border-top-color: #000000;   
-    border-left-color: #000000;;  
+    height: 7%;
+    font-family: "ms95";
+    font-size: 12px;
+    border: 1px solid;
+    border-top-color: #000000;
+    border-left-color: #000000;
+    ;
     background-color: #ffffff;
     border-bottom-color: #c3c7cb;
     border-right-color: #c3c7cb;
 }
+
+.source-name {
+    right: 10%;
+    position: absolute;
+}
+
 .player-input-of {
     padding-left: 5px;
     width: 100%;
-    height: 7%; 
-    font-family:"ms95";
+    height: 7%;
+    font-family: "ms95";
     font-size: 13px;
-    border: 1px solid;    
-    border-top-color: #000000;   
-    border-left-color: #000000;  
-    background-color:  #c3c7cb;
+    border: 1px solid;
+    border-top-color: #000000;
+    border-left-color: #000000;
+    background-color: #c3c7cb;
     border-bottom-color: #c3c7cb;
     border-right-color: #c3c7cb;
 }
@@ -186,13 +225,19 @@ button:active{
 .player-input-status {
     padding-left: 5px;
     width: 50%;
-    height: 7%; 
-    font-family:"ms95";
+    height: 7%;
+    font-family: "ms95";
     font-size: 13px;
-    border: 1px solid;    
-    border-top-color: #000000;   
-    border-left-color: #000000;  
-    background-color:  #c3c7cb;
+    border: 1px solid;
+    border-top-color: #000000;
+    border-left-color: #000000;
+    background-color: #c3c7cb;
     border-bottom-color: #c3c7cb;
     border-right-color: #c3c7cb;
+}
+
+@media only screen and (max-width: 840px) {
+    body {
+        transform: scale(1);
+    }
 }
