@@ -35,15 +35,15 @@
             <div class="row">
                 <div class="col s6">
                     <div class="clock-display">
-                        <span class="text-clock-display"> [00] : 00 : 00</span>
+                        <span id="track-timer" class="text-clock-display"> [00] 00 : 00</span>
                     </div>
                 </div>
                 <div class="col s6">
                     <div class="player-control">
                         <div class="player-control-top">
-                            <button class="play-button"> &#9658;</button>
-                            <button class="player-button"> &#10074;&#10074;</button>
-                            <button class="player-button"> &#9724;</button>
+                            <button class="play-button" onclick="playSong()"> &#9658;</button>
+                            <button class="player-button" onclick="pauseSong()"> &#10074;&#10074;</button>
+                            <button class="player-button" onclick="stopSong()"> &#9724;</button>
                         </div>
                         <div class="player-control-bottom">
                             <button class="player-button"> &#x23EE;</button>
@@ -59,7 +59,7 @@
                 <div class="info-row artist">
                     <div class="col s1">Artist:</div>
                     <div class="col s11">
-                        <div class="player-input"> <span class="artist-name">Data or no disc loaded</span>
+                        <div class="player-input"> <span class="artist-name">No data or disc loaded</span>
                             <span class="source-name">&lt; D: &gt;</span>
                             <button class="dropdown-button artist"> &#x25BC;</button>
                         </div>
@@ -68,7 +68,7 @@
                 <div class="info-row title">
                     <div class="col s1">Title:</div>
                     <div class="col s11">
-                        <div class="player-input-of">Please insert a audio compact disc.</div>
+                        <div id="track-title" class="player-input-of">Please insert a audio compact disc.</div>
                     </div>
                 </div>
                 <div class="info-row track">
@@ -92,9 +92,15 @@
             </div>
         </div>
     </div>
+    <!-- Music Player-->
+    <audio id="audio-stream-handler" style="display:hidden" ontimeupdate="updatePlayerUI()" controls src="music/artists/vektroid/floral-shoppe/lisafrank.mp3">
+        <!-- PLACEHOLDER SONG :) -->
+    </audio>
+
 </body>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="javascript/playerfunctions.js"></script>
 
 </html>
