@@ -84,7 +84,7 @@ body {
 .dropdown-button {
     float: right;
     padding-left: 2px;
-    margin-top: .25px;
+    margin-top: 0px;
     border: 1px solid;
     border-top-color: #ffffff;
     border-left-color: #dbdada;
@@ -93,6 +93,7 @@ body {
     border-right-color: #000000;
     font-family: "ms95";
     width: 17.5px;
+    height: 99%;
 }
 
 .info-row {
