@@ -40,46 +40,52 @@
                 </div>
                 <div class="col s6">
                     <div class="player-control">
-                        <button class="play-button"> &#9658;</button>
-                        <button class="player-button"> &#10074;&#10074;</button>
-                        <button class="player-button"> &#9724;</button>
-                        <button class="player-button"> &#x23EE;</button>
-                        <button class="player-button"> &#x23F4;</button>
-                        <button class="player-button"> &#x23F5;</button>
-                        <button class="player-button"> &#x23ED;</button>
-                        <button class="player-button"> &#x23cf;</button>
+                        <div class="player-control-top">
+                            <button class="play-button"> &#9658;</button>
+                            <button class="player-button"> &#10074;&#10074;</button>
+                            <button class="player-button"> &#9724;</button>
+                        </div>
+                        <div class="player-control-bottom">
+                            <button class="player-button"> &#x23EE;</button>
+                            <button class="player-button"> &#x23F4;</button>
+                            <button class="player-button"> &#x23F5;</button>
+                            <button class="player-button"> &#x23ED;</button>
+                            <button class="player-button"> &#x23cf;</button>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
             <div class="row">
-                <div class="windows-row">
+                <div class="info-row artist">
                     <div class="col s1">Artist:</div>
                     <div class="col s11">
-                        <div class="player-input"> <span class="artist-name">Data or no disc</span>
-                            <span class="source-name">[D:]</span></div>
+                        <div class="player-input"> <span class="artist-name">Data or no disc loaded</span>
+                            <span class="source-name">&lt; D: &gt;</span>
+                            <button class="dropdown-button artist"> &#x25BC;</button>
+                        </div>
                     </div>
                 </div>
-                <div class="windows-row">
+                <div class="info-row title">
                     <div class="col s1">Title:</div>
                     <div class="col s11">
                         <div class="player-input-of">Please insert a audio compact disc.</div>
                     </div>
                 </div>
-                <div class="windows-row">
+                <div class="info-row track">
                     <div class="col s1">Track:</div>
                     <div class="col s11">
-                        <div class="player-input"></div>
+                        <div class="player-input">
+                            <button class="dropdown-button track"> &#x25BC;</button>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row ">
                 <div class="windows-row">
-                    <div class="col s6">
+                    <div class="col s6 secondary-timer">
                         <div class="player-input-of">Total Play: 00:00 m:s</div>
                     </div>
-                    <div class="col s6">
+                    <div class="col s6 secondary-timer">
                         <div class="player-input-of">Track: 00:00 m:s</div>
                     </div>
                 </div>

@@ -81,9 +81,23 @@ body {
     background-color: rgb(192, 192, 192);
 }
 
-.windows-row {
+.dropdown-button {
+    float: right;
+    padding-left: 2px;
+    margin-top: .25px;
+    border: 1px solid;
+    border-top-color: #ffffff;
+    border-left-color: #dbdada;
+    background-color: #c0c0c0;
+    border-bottom-color: #000000;
+    border-right-color: #000000;
+    font-family: "ms95";
+    width: 17.5px;
+}
+
+.info-row {
     /* Edited by MrShoopa on 12/3/2018! */
-    padding-bottom: 30px;
+    padding-bottom: 33px;
 }
 
 button:active {
@@ -104,8 +118,9 @@ button:active {
 .cd-player.icon {
     /* Edits by MrShoopa on 12/3/2018 */
     background-image: url('img/cd-player.png');
-    background-size: 17px 14px; /*Fix the icon size, was cropping the botom part */
-    background-repeat: no-repeat;    
+    background-size: 17px 14px;
+    /*Fix the icon size, was cropping the botom part */
+    background-repeat: no-repeat;
     padding-left: 20px;
 }
 
@@ -160,31 +175,31 @@ button:active {
 }
 
 .play-button {
-    margin-left: 3px;
-    margin-bottom: 8px;
+    margin-right: -3px;
+    margin-bottom: 4.5px;
     border: 1px solid;
     border-top-color: #ffffff;
     border-left-color: #dbdada;
     background-color: #c0c0c0;
     border-bottom-color: #000000;
     border-right-color: #000000;
-    width: 56.5%;
-    height: 9%;
+    width: 60%;
+    height: 10%;
     font-family: "ms95";
 }
 
 .player-button {
-    margin-left: 3px;
-    margin-bottom: 8px;
-    padding-left: 4px;
+    margin-right: -3px;
+    margin-bottom: 4.5px;
+    padding-left: 5px;
     border: 1px solid;
     border-top-color: #ffffff;
     border-left-color: #dbdada;
     background-color: #c0c0c0;
     border-bottom-color: #000000;
     border-right-color: #000000;
-    width: 16%;
-    height: 9%;
+    width: 20%;
+    height: 10%;
     font-family: "ms95";
 }
 
@@ -213,7 +228,7 @@ button:active {
     width: 100%;
     height: 7%;
     font-family: "ms95";
-    font-size: 13px;
+    font-size: 12px;
     border: 1px solid;
     border-top-color: #000000;
     border-left-color: #000000;
@@ -235,6 +250,11 @@ button:active {
     background-color: #c3c7cb;
     border-bottom-color: #c3c7cb;
     border-right-color: #c3c7cb;
+}
+
+.col.s6.secondary-timer {
+    padding-left: 1;
+    padding-right: 2;
 }
 
 @media only screen and (max-width: 840px) {
